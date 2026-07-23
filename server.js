@@ -47,3 +47,7 @@ const questions=[
         timelimit: 10
     }
 ];
+//helper: generate 4-digit room pin
+function generateRoomPin() {
+    return Math.floor(1000 + Math.random() * 9000).toString();
+}
